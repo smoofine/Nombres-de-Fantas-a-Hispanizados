@@ -1,0 +1,29 @@
+{
+  "profession": [
+    "Runero",
+    "Sigilario",
+    "Forjario",
+    "Astrolario",
+    "Portarruna",
+    "Tejedor de Sombras"
+  ],
+  "place": [
+    "del Crisol",
+    "del Portal",
+    "de Lunaria",
+    "del Bastión",
+    "de la Arboleda"
+  ],
+  "lineage": [
+    "Valdórez",
+    "Arkánez",
+    "Eldárez",
+    "Tiriánez"
+  ],
+  "deed": [
+    "Rompeescamas",
+    "Guardadracos",
+    "Vigilante del Eclipse",
+    "Domabestias"
+  ]
+}

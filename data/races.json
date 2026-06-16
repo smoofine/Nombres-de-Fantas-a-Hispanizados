@@ -1,0 +1,78 @@
+{
+  "Enano": {
+    "roots": [
+      "dur",
+      "ferr",
+      "roc",
+      "gran",
+      "bron"
+    ],
+    "male": [
+      "án",
+      "io",
+      "ario"
+    ],
+    "female": [
+      "a",
+      "aria",
+      "ina"
+    ]
+  },
+  "Elfo": {
+    "roots": [
+      "sil",
+      "lun",
+      "aur",
+      "est",
+      "val"
+    ],
+    "male": [
+      "io",
+      "iel",
+      "ario"
+    ],
+    "female": [
+      "ia",
+      "elia",
+      "aria"
+    ]
+  },
+  "Tiefling": {
+    "roots": [
+      "azh",
+      "nad",
+      "sam",
+      "qam",
+      "ifr"
+    ],
+    "male": [
+      "ar",
+      "iel",
+      "on"
+    ],
+    "female": [
+      "ira",
+      "ara",
+      "iela"
+    ]
+  },
+  "Dracónido": {
+    "roots": [
+      "coatl",
+      "xiuh",
+      "teo",
+      "izt",
+      "ark"
+    ],
+    "male": [
+      "ar",
+      "o",
+      "an"
+    ],
+    "female": [
+      "a",
+      "ara",
+      "ia"
+    ]
+  }
+}
