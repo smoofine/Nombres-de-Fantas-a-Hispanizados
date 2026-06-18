@@ -1,36 +1,58 @@
-<!DOCTYPE html>
+Ôªø<!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Generador de Nombres Fant·sticos</title>
+<title>Generador de Nombres Fant√°sticos</title>
 <link rel="manifest" href="manifest.json">
 <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<h1>Generador de Nombres Fant·sticos</h1>
+<div class="container">
+  <header>
+    <h1>Generador de Nombres Fant√°sticos</h1>
+    <p class="subtitle">Crea nombres hispanizados √∫nicos para tus personajes</p>
+  </header>
 
-<select id="race"></select>
-<select id="gender">
-<option value="m">Masculino</option>
-<option value="f">Femenino</option>
-</select>
+  <main class="generator-card">
+    <div class="form-group">
+      <label for="race">Raza</label>
+      <select id="race"></select>
+    </div>
 
-<select id="culture"></select>
+    <div class="form-group">
+      <label for="gender">G√©nero</label>
+      <select id="gender">
+        <option value="m">Masculino</option>
+        <option value="f">Femenino</option>
+      </select>
+    </div>
 
-<select id="surnameType">
-<option value="any">Cualquiera</option>
-<option value="profession">Oficio</option>
-<option value="place">Lugar</option>
-<option value="lineage">Linaje</option>
-<option value="deed">HazaÒa</option>
-<option value="magic_affinity">Afinidad M·gica</option>
-<option value="creatures">Criaturas</option>
-</select>
+    <div class="form-group">
+      <label for="culture">Cultura</label>
+      <select id="culture"></select>
+    </div>
 
-<button id="generate">Generar</button>
+    <div class="form-group">
+      <label for="surnameType">Tipo de Apellido</label>
+      <select id="surnameType">
+        <option value="any">Cualquiera</option>
+        <option value="profession">Oficio</option>
+        <option value="place">Lugar</option>
+        <option value="lineage">Linaje</option>
+        <option value="deed">Haza√±a</option>
+        <option value="magic_affinity">Afinidad M√°gica</option>
+        <option value="creatures">Criaturas</option>
+      </select>
+    </div>
 
-<div id="result"></div>
+    <button id="generate" class="generate-btn">
+      <span class="btn-text">Generar Nombre</span>
+    </button>
+
+    <div id="result" class="result-container"></div>
+  </main>
+</div>
 
 <script type="module" src="js/app.js"></script>
 </body>
