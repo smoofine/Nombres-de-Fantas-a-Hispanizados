@@ -11,6 +11,7 @@ fetch('./data/races.json').then(r=>r.json()).then(races=>{
  o.value=r;o.textContent=r;
  raceSelect.appendChild(o);
 });
+});
 
 // Populate culture select
 fetch('./data/cultures.json').then(r=>r.json()).then(cultures=>{
