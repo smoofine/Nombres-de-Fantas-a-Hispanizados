@@ -1,23 +1,35 @@
-
 import {generate} from './generator.js';
 
-const races = await fetch('./data/races.json').then(r=>r.json());
-const surnames = await fetch('./data/surnames.json').then(r=>r.json());
-
 const raceSelect=document.getElementById('race');
-Object.keys(races).forEach(r=>{
+const genderSelect=document.getElementById('gender');
+const surnameTypeSelect=document.getElementById('surnameType');
+
+// Populate race select
+fetch('./data/races.json').then(r=>r.json()).then(races=>{
+ Object.keys(races).forEach(r=>{
  let o=document.createElement('option');
  o.value=r;o.textContent=r;
  raceSelect.appendChild(o);
 });
 
-document.getElementById('generate').onclick=()=>{
- const result=generate(
-  races,
-  surnames,
+// Populate culture select
+fetch('./data/cultures.json').then(r=>r.json()).then(cultures=>{
+ const cultureSelect=document.getElementById('culture');
+ if(cultureSelect){
+  Object.keys(cultures.culturas).forEach(c=>{
+   let o=document.createElement('option');
+   o.value=c;o.textContent=c;
+   cultureSelect.appendChild(o);
+  });
+ }
+});
+
+document.getElementById('generate').onclick=async ()=>{
+ const result=await generate(
   raceSelect.value,
-  document.getElementById('gender').value,
-  document.getElementById('surnameType').value
+  genderSelect.value,
+  surnameTypeSelect.value,
+  document.getElementById('culture')?.value || null
  );
  document.getElementById('result').textContent=result;
 };

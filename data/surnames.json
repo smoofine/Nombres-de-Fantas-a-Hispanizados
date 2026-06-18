@@ -11,19 +11,36 @@
     "del Crisol",
     "del Portal",
     "de Lunaria",
-    "del BastiÃ³n",
+    "del Bastión",
     "de la Arboleda"
   ],
   "lineage": [
-    "ValdÃ³rez",
-    "ArkÃ¡nez",
-    "EldÃ¡rez",
-    "TiriÃ¡nez"
+    "Valdórez",
+    "Arkánez",
+    "Eldárez",
+    "Tiriánez"
   ],
   "deed": [
     "Rompeescamas",
     "Guardadracos",
     "Vigilante del Eclipse",
     "Domabestias"
+  ],
+  "magic_affinity": [
+    "Ignario",
+    "Umbrano",
+    "Luminar",
+    "Nivario",
+    "Tenebrio",
+    "Velárico",
+    "Aéreo"
+  ],
+  "creatures": [
+    "Grifal",
+    "Manticor",
+    "Basilio",
+    "Dragón",
+    "Quimera",
+    "Hidra"
   ]
 }

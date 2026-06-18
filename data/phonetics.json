@@ -1,0 +1,98 @@
+{
+  "Enano": {
+    "consonantes_fuertes": ["D", "G", "K", "R", "T", "B"],
+    "consonantes_suaves": ["L", "N", "M"],
+    "vocales_abiertas": ["A", "O", "U"],
+    "vocales_cerradas": ["I", "E"],
+    "silabas_pesadas": true,
+    "patrones": ["CVC", "CCVC", "CVCC"],
+    "prohibidos": ["ñ", "x", "z"]
+  },
+  "Elfo": {
+    "consonantes_fuertes": [],
+    "consonantes_suaves": ["L", "S", "F", "M", "N", "Y", "V"],
+    "vocales_abiertas": ["A", "E", "I"],
+    "vocales_cerradas": ["O", "U"],
+    "silabas_pesadas": false,
+    "patrones": ["CV", "CVC", "VCV"],
+    "prohibidos": ["K", "G", "J"]
+  },
+  "Tiefling": {
+    "consonantes_fuertes": ["Z", "Kh", "Sh"],
+    "consonantes_suaves": ["L", "M", "N", "S"],
+    "vocales_abiertas": ["A", "I"],
+    "vocales_cerradas": ["O", "U"],
+    "silabas_pesadas": false,
+    "patrones": ["CVC", "CVCC", "CCV"],
+    "prohibidos": [],
+    "influencia_arabe": true
+  },
+  "Dracónido": {
+    "consonantes_fuertes": ["K", "R", "Th", "X", "Z"],
+    "consonantes_suaves": ["L", "N", "S"],
+    "vocales_abiertas": ["A", "O", "U"],
+    "vocales_cerradas": ["I", "E"],
+    "silabas_pesadas": true,
+    "patrones": ["CVC", "CCVC", "CVCC"],
+    "prohibidos": [],
+    "nombre_clan_primero": true
+  },
+  "Humano": {
+    "consonantes_fuertes": ["R", "T", "L"],
+    "consonantes_suaves": ["L", "M", "N", "S"],
+    "vocales_abiertas": ["A", "E", "O"],
+    "vocales_cerradas": ["I", "U"],
+    "silabas_pesadas": false,
+    "patrones": ["CV", "CVC", "VCV"],
+    "prohibidos": []
+  },
+  "Orco": {
+    "consonantes_fuertes": ["K", "G", "R", "P", "T"],
+    "consonantes_suaves": ["L", "M", "N"],
+    "vocales_abiertas": ["A", "O", "U"],
+    "vocales_cerradas": ["I", "E"],
+    "silabas_pesadas": true,
+    "patrones": ["CVC", "CCVC", "CVCC"],
+    "prohibidos": [],
+    "influencia_mapuche": true,
+    "influencia_quechua": true
+  },
+  "Gnomo": {
+    "consonantes_fuertes": [],
+    "consonantes_suaves": ["P", "T", "K", "B", "D", "G", "L", "M", "N"],
+    "vocales_abiertas": ["A", "E", "I", "O"],
+    "vocales_cerradas": ["U"],
+    "silabas_pesadas": false,
+    "patrones": ["CV", "CVC", "VCV"],
+    "prohibidos": [],
+    "rapido": true
+  },
+  "Halfling": {
+    "consonantes_fuertes": [],
+    "consonantes_suaves": ["L", "M", "N", "S", "P", "T"],
+    "vocales_abiertas": ["A", "E", "I"],
+    "vocales_cerradas": ["O", "U"],
+    "silabas_pesadas": false,
+    "patrones": ["CV", "CVC", "VCV"],
+    "prohibidos": []
+  },
+  "Aasimar": {
+    "consonantes_fuertes": [],
+    "consonantes_suaves": ["L", "M", "N", "S", "V"],
+    "vocales_abiertas": ["A", "E", "I"],
+    "vocales_cerradas": ["O", "U"],
+    "silabas_pesadas": false,
+    "patrones": ["CV", "CVC", "VCV"],
+    "prohibidos": [],
+    "sufijos_celestiales": ["el", "on", "iel", "ius"]
+  },
+  "Goliath": {
+    "consonantes_fuertes": ["K", "G", "R", "Th", "B"],
+    "consonantes_suaves": ["L", "M", "N"],
+    "vocales_abiertas": ["A", "O", "U"],
+    "vocales_cerradas": ["I", "E"],
+    "silabas_pesadas": true,
+    "patrones": ["CVC", "CCVC", "CVCC"],
+    "prohibidos": []
+  }
+}

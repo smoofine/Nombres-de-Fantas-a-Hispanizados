@@ -1,0 +1,232 @@
+{
+  "culturas": {
+    "Reinos del Norte": {
+      "nombre": "Reinos del Norte",
+      "influencias": ["nórdico", "germánico", "vasco"],
+      "razas_asociadas": ["Enano", "Humano", "Hombre Oso", "Barding", "Ciclope", "Goliath", "Minotauro", "Leonin"],
+      "fonetica": {
+        "consonantes_fuertes": ["K", "G", "R", "T", "B"],
+        "vocales_abiertas": ["A", "O", "U"]
+      },
+      "raices_preferidas": ["piedra", "metal", "guerra", "montaña"],
+      "apellidos_preferidos": ["linaje", "hazaña", "lugar"],
+      "tradicion_nombres": "patronímico_compuesto"
+    },
+    "Bosques de Plata": {
+      "nombre": "Bosques de Plata",
+      "influencias": ["latín clásico", "griego", "occitano"],
+      "razas_asociadas": ["Elfo", "Semielfo", "Elfo Astral", "Eladrin", "Cervano", "Hada", "Satiro", "Firbolg", "Erina", "Hedge", "Fuyoren", "Hanamori"],
+      "fonetica": {
+        "consonantes_suaves": ["L", "S", "F", "M", "N", "Y"],
+        "vocales_abiertas": ["A", "E", "I"]
+      },
+      "raices_preferidas": ["naturaleza", "sabiduría", "luz", "viento"],
+      "apellidos_preferidos": ["lugar", "linaje", "criaturas"],
+      "tradicion_nombres": "poético_compuesto"
+    },
+    "Desiertos del Sur": {
+      "nombre": "Desiertos del Sur",
+      "influencias": ["árabe andalusí", "bereber"],
+      "razas_asociadas": ["Tiefling", "Humano", "Aasimar", "Genasi", "Dhampir", "Thri-kreen", "Yuan-ti", "Satarre"],
+      "fonetica": {
+        "consonantes_fuertes": ["Z", "Kh", "Sh"],
+        "vocales_abiertas": ["A", "I"]
+      },
+      "raices_preferidas": ["infernal", "astral", "fuego", "estrellas"],
+      "apellidos_preferidos": ["linaje", "lugar", "afinidad_mágica"],
+      "tradicion_nombres": "arabe_adaptado"
+    },
+    "Imperio Solar": {
+      "nombre": "Imperio Solar",
+      "influencias": ["latín imperial", "mesoamericano"],
+      "razas_asociadas": ["Dracónido", "Humano", "Hombre Lagarto", "Sauriano", "Tatsumi", "Oniborne", "Ryokido"],
+      "fonetica": {
+        "consonantes_fuertes": ["K", "R", "Th", "X"],
+        "vocales_abiertas": ["A", "O", "U"]
+      },
+      "raices_preferidas": ["dragón", "honor", "sol", "fuego"],
+      "apellidos_preferidos": ["linaje", "hazaña", "títulos"],
+      "tradicion_nombres": "clan_primero"
+    },
+    "Tierras del Oeste": {
+      "nombre": "Tierras del Oeste",
+      "influencias": ["mapudungun", "quechua", "guaraní"],
+      "razas_asociadas": ["Orco", "Semiorco", "Búgbeer", "Hobgoblin", "Goblin", "Gnoll"],
+      "fonetica": {
+        "consonantes_fuertes": ["K", "G", "R", "P", "T"],
+        "vocales_abiertas": ["A", "O", "U"]
+      },
+      "raices_preferidas": ["tierra", "fuego", "guerra", "naturaleza"],
+      "apellidos_preferidos": ["hazaña", "lugar", "linaje"],
+      "tradicion_nombres": "indígena_adaptado"
+    },
+    "Valles Centrales": {
+      "nombre": "Valles Centrales",
+      "influencias": ["romance ibérico", "castellano medieval"],
+      "razas_asociadas": ["Humano", "Halfling", "Semiseco", "Semienano", "Hombre de Bree", "Hobbit Bree", "Ranger del Norte", "Bestial", "Ratter", "Jerbeen"],
+      "fonetica": {
+        "consonantes_suaves": ["L", "M", "N", "S"],
+        "vocales_abiertas": ["A", "E", "O"]
+      },
+      "raices_preferidas": ["virtud", "naturaleza", "fe", "familia"],
+      "apellidos_preferidos": ["oficio", "lugar", "linaje"],
+      "tradicion_nombres": "romance_estándar"
+    },
+    "Montañas de Cristal": {
+      "nombre": "Montañas de Cristal",
+      "influencias": ["germánico", "alpino"],
+      "razas_asociadas": ["Gnomo", "Enano", "Autognomo", "Kilnkin", "Ruun", "Golynn", "Haniwa"],
+      "fonetica": {
+        "consonantes_suaves": ["P", "T", "K", "B", "D", "G"],
+        "vocales_abiertas": ["A", "E", "I", "O"]
+      },
+      "raices_preferidas": ["artesanía", "joyería", "mecánica", "tierra"],
+      "apellidos_preferidos": ["oficio", "lugar", "linaje"],
+      "tradicion_nombres": "gnómico_creativo"
+    },
+    "Llanuras Doradas": {
+      "nombre": "Llanuras Doradas",
+      "influencias": ["inglés rural", "campesino europeo"],
+      "razas_asociadas": ["Halfling", "Humano", "Kender", "Harengon", "Gallus", "Giff"],
+      "fonetica": {
+        "consonantes_suaves": ["L", "M", "N", "S", "P", "T"],
+        "vocales_abiertas": ["A", "E", "I"]
+      },
+      "raices_preferidas": ["comida", "hogar", "naturaleza", "comunidad"],
+      "apellidos_preferidos": ["oficio", "lugar", "linaje"],
+      "tradicion_nombres": "campesino_amable"
+    },
+    "Cielos Celestiales": {
+      "nombre": "Cielos Celestiales",
+      "influencias": ["latín eclesiástico", "bíblico"],
+      "razas_asociadas": ["Aasimar", "Elfo", "Etereano", "Desencarnado", "Kalashtar"],
+      "fonetica": {
+        "consonantes_suaves": ["L", "M", "N", "S", "V"],
+        "vocales_abiertas": ["A", "E", "I"]
+      },
+      "raices_preferidas": ["luz", "cielo", "virtud", "santidad"],
+      "apellidos_preferidos": ["linaje", "afinidad_mágica", "títulos"],
+      "tradicion_nombres": "celestiales_adaptados"
+    },
+    "Cumbres Eternas": {
+      "nombre": "Cumbres Eternas",
+      "influencias": ["inuit", "escandinavo", "siberiano"],
+      "razas_asociadas": ["Goliath", "Enano", "Isetsu", "Tortle", "Tritón"],
+      "fonetica": {
+        "consonantes_fuertes": ["K", "G", "R", "Th", "B"],
+        "vocales_abiertas": ["A", "O", "U"]
+      },
+      "raices_preferidas": ["montaña", "fuerza", "supervivencia", "honor"],
+      "apellidos_preferidos": ["hazaña", "linaje", "lugar"],
+      "tradicion_nombres": "tribal_mérito"
+    },
+    "Reinos del Aire": {
+      "nombre": "Reinos del Aire",
+      "influencias": ["nativo americano", "aviano"],
+      "razas_asociadas": ["Aarakocra", "Feathren", "Raptor", "Luma", "Owlin", "Quickstep"],
+      "fonetica": {
+        "consonantes_fuertes": ["B", "C", "K", "Q"],
+        "vocales_abiertas": ["A", "E", "I"]
+      },
+      "raices_preferidas": ["aire", "viento", "libertad", "cielo"],
+      "apellidos_preferidos": ["lugar", "criaturas", "afinidad_mágica"],
+      "tradicion_nombres": "aviano_adaptado"
+    },
+    "Dominios Sombríos": {
+      "nombre": "Dominios Sombríos",
+      "influencias": ["gótico", "oscuro", "inframundo"],
+      "razas_asociadas": ["Darakhul", "Sombra", "Ombrask", "Hexblood", "Cambiaformas", "Vedalken"],
+      "fonetica": {
+        "consonantes_suaves": ["S", "Sh", "V", "Z"],
+        "vocales_abiertas": ["A", "I", "U"]
+      },
+      "raices_preferidas": ["sombra", "muerte", "magia", "misterio"],
+      "apellidos_preferidos": ["lugar", "afinidad_mágica", "hazaña"],
+      "tradicion_nombres": "sombrio_adaptado"
+    },
+    "Mares Profundos": {
+      "nombre": "Mares Profundos",
+      "influencias": ["atlántida", "polinesio", "marino"],
+      "razas_asociadas": ["Tritón", "Tortle", "Cnidaran", "Lotol", "Lemurian", "Hadozee"],
+      "fonetica": {
+        "consonantes_suaves": ["L", "M", "N", "S"],
+        "vocales_abiertas": ["A", "E", "O"]
+      },
+      "raices_preferidas": ["agua", "mar", "profundidad", "coral"],
+      "apellidos_preferidos": ["lugar", "criaturas", "linaje"],
+      "tradicion_nombres": "marino_adaptado"
+    },
+    "Tierras Salvajes": {
+      "nombre": "Tierras Salvajes",
+      "influencias": ["primitivo", "tribal", "feral"],
+      "razas_asociadas": ["Centauro", "Tabaxi", "Cambiaformas", "Strig", "Grimalkin", "Ratatosk", "Rakin", "Mapach"],
+      "fonetica": {
+        "consonantes_fuertes": ["K", "R", "T", "P"],
+        "vocales_abiertas": ["A", "O", "U"]
+      },
+      "raices_preferidas": ["naturaleza", "caza", "libertad", "instinto"],
+      "apellidos_preferidos": ["hazaña", "criaturas", "lugar"],
+      "tradicion_nombres": "salvaje_adaptado"
+    },
+    "Reinos Mecánicos": {
+      "nombre": "Reinos Mecánicos",
+      "influencias": ["industrial", "mecánico", "constructo"],
+      "razas_asociadas": ["Guerrero Forjado", "Autognomo", "Wechselkind", "Simic Hybrid", "Plasmoid", "Oozekin", "Geleton", "Mycelian"],
+      "fonetica": {
+        "consonantes_fuertes": ["K", "T", "B", "D", "G"],
+        "vocales_abiertas": ["A", "E", "O"]
+      },
+      "raices_preferidas": ["mecánica", "metal", "construcción", "ciencia"],
+      "apellidos_preferidos": ["oficio", "lugar", "linaje"],
+      "tradicion_nombres": "mecánico_adaptado"
+    },
+    "Imperios Orientales": {
+      "nombre": "Imperios Orientales",
+      "influencias": ["japonés", "chino", "coreano"],
+      "razas_asociadas": ["Kitsune", "Tengu", "Enkoh", "Kobold", "Gith", "Verdan", "Vulpin"],
+      "fonetica": {
+        "consonantes_fuertes": ["K", "T", "S", "Z"],
+        "vocales_abiertas": ["A", "E", "I", "O", "U"]
+      },
+      "raices_preferidas": ["honor", "arte", "naturaleza", "espíritu"],
+      "apellidos_preferidos": ["linaje", "títulos", "oficio"],
+      "tradicion_nombres": "oriental_adaptado"
+    },
+    "Reinos Insectoides": {
+      "nombre": "Reinos Insectoides",
+      "influencias": ["insecto", "colmena", "alienígena"],
+      "razas_asociadas": ["Thri-kreen", "Opteran", "Gobboc", "Neurophaged", "Oculus"],
+      "fonetica": {
+        "consonantes_fuertes": ["K", "T", "Z", "X"],
+        "vocales_abiertas": ["A", "E", "I"]
+      },
+      "raices_preferidas": ["colmena", "enjambre", "trabajo", "comunidad"],
+      "apellidos_preferidos": ["oficio", "lugar", "linaje"],
+      "tradicion_nombres": "insecto_adaptado"
+    },
+    "Ciudades de las Sombras": {
+      "nombre": "Ciudades de las Sombras",
+      "influencias": ["urbano", "criminal", "subterráneo"],
+      "razas_asociadas": ["Cambiaformas", "Kenku", "Ravenfolk", "Corvum", "Ratter", "Gobboc"],
+      "fonetica": {
+        "consonantes_fuertes": ["K", "C", "X", "T"],
+        "vocales_abiertas": ["A", "E", "I"]
+      },
+      "raices_preferidas": ["sombra", "secreto", "urbano", "comercio"],
+      "apellidos_preferidos": ["oficio", "lugar", "linaje"],
+      "tradicion_nombres": "urbano_adaptado"
+    },
+    "Reinos de la Magia": {
+      "nombre": "Reinos de la Magia",
+      "influencias": ["arcano", "místico", "académico"],
+      "razas_asociadas": ["Genasi", "Kalashtar", "Vedalken", "Etereano", "Luma"],
+      "fonetica": {
+        "consonantes_suaves": ["L", "M", "N", "S", "V"],
+        "vocales_abiertas": ["A", "E", "I"]
+      },
+      "raices_preferidas": ["magia", "conocimiento", "arcano", "misterio"],
+      "apellidos_preferidos": ["afinidad_mágica", "títulos", "linaje"],
+      "tradicion_nombres": "mágico_adaptado"
+    }
+  }
+}

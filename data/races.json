@@ -1,78 +1,558 @@
 {
+  "Aarakocra": {
+    "roots": ["aer", "ikk", "kle", "oor", "quier"],
+    "male": ["k", "c", "q"],
+    "female": ["a", "ia", "ka"]
+  },
+  "Aasimar": {
+    "roots": ["az", "im", "mal", "sar", "val"],
+    "male": ["el", "on", "ius"],
+    "female": ["a", "ia", "ela"]
+  },
+  "Elfo Astral": {
+    "roots": ["alth", "mys", "naiv", "xa"],
+    "male": ["ea", "il", "ar"],
+    "female": ["a", "ia", "ra"]
+  },
+  "Autognomo": {
+    "roots": ["clic", "gear", "rus", "spro", "unit"],
+    "male": ["o", "io", "box"],
+    "female": ["a", "ia", "et"]
+  },
+  "Barding": {
+    "roots": ["bran", "bain", "thor"],
+    "male": ["d", "n", "r"],
+    "female": ["a", "ia", "na"]
+  },
+  "Hombre de Bree": {
+    "roots": ["barn", "tom", "heat"],
+    "male": ["by", "es", "er"],
+    "female": ["a", "ia", "y"]
+  },
+  "Ranger del Norte": {
+    "roots": ["ara", "hal", "gor"],
+    "male": ["n", "d", "r"],
+    "female": ["a", "ia", "na"]
+  },
+  "Hombre Oso": {
+    "roots": ["bjor", "gur", "thor", "vor"],
+    "male": ["n", "r", "g"],
+    "female": ["a", "ia", "na"]
+  },
+  "Bestial": {
+    "roots": ["claw", "fang", "swif", "trac"],
+    "male": ["o", "er", "k"],
+    "female": ["a", "ia", "er"]
+  },
+  "Hobbit Bree": {
+    "roots": ["per", "bil", "proud", "green"],
+    "male": ["in", "bo", "foot"],
+    "female": ["a", "ia", "foot"]
+  },
+  "Búgbeer": {
+    "roots": ["gru", "kla", "jin", "thr"],
+    "male": ["k", "r", "n"],
+    "female": ["a", "ia", "ka"]
+  },
+  "Centauro": {
+    "roots": ["chon", "dun", "had", "nil"],
+    "male": ["va", "os", "ro"],
+    "female": ["a", "ia", "na"]
+  },
+  "Cervano": {
+    "roots": ["ela", "cor", "mir", "thaw"],
+    "male": ["n", "ven", "or"],
+    "female": ["a", "ia", "na"]
+  },
+  "Cambiaformas": {
+    "roots": ["bin", "cas", "dox", "hix", "nyx", "vox"],
+    "male": ["o", "x", "s"],
+    "female": ["a", "ia", "x"]
+  },
+  "Cnidaran": {
+    "roots": ["ssi", "lys", "shim", "nes"],
+    "male": ["lis", "sha", "s"],
+    "female": ["a", "ia", "sha"]
+  },
+  "Corvum": {
+    "roots": ["ka", "cor", "var", "xun"],
+    "male": ["el", "us", "k"],
+    "female": ["a", "ia", "ka"]
+  },
+  "Ciclope": {
+    "roots": ["bal", "ster", "bron", "ocu"],
+    "male": ["or", "es", "on"],
+    "female": ["a", "ia", "na"]
+  },
+  "Darakhul": {
+    "roots": ["ghou", "bone", "kor", "mor"],
+    "male": ["l", "r", "th"],
+    "female": ["a", "ia", "na"]
+  },
+  "Dhampir": {
+    "roots": ["alu", "car", "val", "von"],
+    "male": ["rd", "illa", "ius"],
+    "female": ["a", "ia", "illa"]
+  },
+  "Dracónido": {
+    "roots": ["coa", "xiu", "teo", "izt", "ark"],
+    "male": ["ar", "o", "an"],
+    "female": ["a", "ara", "ia"]
+  },
   "Enano": {
-    "roots": [
-      "dur",
-      "ferr",
-      "roc",
-      "gran",
-      "bron"
-    ],
-    "male": [
-      "Ã¡n",
-      "io",
-      "ario"
-    ],
-    "female": [
-      "a",
-      "aria",
-      "ina"
-    ]
+    "roots": ["dur", "ferr", "roc", "gran", "bron"],
+    "male": ["án", "io", "ario"],
+    "female": ["a", "aria", "ina"]
+  },
+  "Eladrin": {
+    "roots": ["aut", "summ", "wint", "sprin"],
+    "male": ["whis", "wrath", "heart"],
+    "female": ["a", "ia", "whisper"]
   },
   "Elfo": {
-    "roots": [
-      "sil",
-      "lun",
-      "aur",
-      "est",
-      "val"
-    ],
-    "male": [
-      "io",
-      "iel",
-      "ario"
-    ],
-    "female": [
-      "ia",
-      "elia",
-      "aria"
-    ]
+    "roots": ["sil", "lun", "aur", "est", "val"],
+    "male": ["io", "iel", "ario"],
+    "female": ["ia", "elia", "aria"]
+  },
+  "Enkoh": {
+    "roots": ["ken", "tar", "kok", "suk"],
+    "male": ["ji", "ro", "i"],
+    "female": ["a", "ia", "i"]
+  },
+  "Erina": {
+    "roots": ["pip", "til", "gri", "mir"],
+    "male": ["in", "ba", "k"],
+    "female": ["a", "ia", "ri"]
+  },
+  "Etereano": {
+    "roots": ["val", "eth", "phan", "zep"],
+    "male": ["as", "ra", "us"],
+    "female": ["a", "ia", "ra"]
+  },
+  "Hada": {
+    "roots": ["bram", "dew", "pip", "this", "zep"],
+    "male": ["ble", "drop", "le"],
+    "female": ["a", "ia", "drop"]
+  },
+  "Feathren": {
+    "roots": ["cor", "avi", "feat", "aqu"],
+    "male": ["is", "a", "ila"],
+    "female": ["a", "ia", "a"]
+  },
+  "Firbolg": {
+    "roots": ["boul", "tree", "oak"],
+    "male": ["der", "friend", "heart"],
+    "female": ["a", "ia", "heart"]
+  },
+  "Fuyoren": {
+    "roots": ["sak", "har", "ren", "yuk"],
+    "male": ["ura", "u", "i"],
+    "female": ["a", "ia", "i"]
+  },
+  "Gallus": {
+    "roots": ["cale", "mae", "tim", "wheat", "barn"],
+    "male": ["b", "y", "ley"],
+    "female": ["a", "ia", "ley"]
+  },
+  "Geleton": {
+    "roots": ["blob", "gloo", "slim", "vis"],
+    "male": ["bo", "op", "us"],
+    "female": ["a", "ia", "us"]
+  },
+  "Genasi": {
+    "roots": ["bree", "gus", "whis", "zep", "flin", "jas", "obs", "ony", "ash", "bla", "emb", "ign", "cas", "rip", "shor", "tor"],
+    "male": ["ze", "st", "yx", "end", "er"],
+    "female": ["a", "ia", "ade"]
+  },
+  "Giff": {
+    "roots": ["bar", "eus", "per", "reg"],
+    "male": ["naby", "stace", "cival", "inald"],
+    "female": ["a", "ia", "cival"]
+  },
+  "Gith": {
+    "roots": ["kra", "men", "quo", "vra", "za"],
+    "male": ["k", "ak", "ik", "as", "ith"],
+    "female": ["a", "ia", "as"]
+  },
+  "Gnoll": {
+    "roots": ["gar", "har", "kar", "ror"],
+    "male": ["row", "ak", "r", "sh"],
+    "female": ["a", "ia", "sh"]
+  },
+  "Gnomo": {
+    "roots": ["als", "fon", "roo", "bimp", "bre", "bad", "clo", "stum"],
+    "male": ["ton", "kin", "dar", "ger"],
+    "female": ["a", "ia", "na"]
+  },
+  "Gobboc": {
+    "roots": ["grib", "pok", "zib", "nok"],
+    "male": ["bit", "k", "b"],
+    "female": ["a", "ia", "bit"]
+  },
+  "Goblin": {
+    "roots": ["dro", "get", "kaz", "vol"],
+    "male": ["a", "h", "za"],
+    "female": ["a", "ia", "za"]
+  },
+  "Goliath": {
+    "roots": ["fuer", "pod", "vig", "rob", "fir"],
+    "male": ["ak", "or", "ar"],
+    "female": ["a", "ara", "ina"]
+  },
+  "Golynn": {
+    "roots": ["rhy", "bor", "kra", "thr"],
+    "male": ["o", "os", "um"],
+    "female": ["a", "ia", "na"]
+  },
+  "Grimalkin": {
+    "roots": ["pur", "scra", "whis", "cla"],
+    "male": ["r", "tch", "aws"],
+    "female": ["a", "ia", "aws"]
+  },
+  "Hadozee": {
+    "roots": ["gar", "kok", "ship", "tar", "tuc"],
+    "male": ["r", "o", "ley", "ker"],
+    "female": ["a", "ia", "ley"]
+  },
+  "Semiseco": {
+    "roots": ["eli", "syl", "row", "bar"],
+    "male": ["don", "va", "an"],
+    "female": ["a", "ia", "va"]
+  },
+  "Semienano": {
+    "roots": ["joh", "mar", "bat", "iro"],
+    "male": ["n", "ry", "fist"],
+    "female": ["a", "ia", "fist"]
+  },
+  "Semielfo": {
+    "roots": ["sil", "lun", "aur", "fort", "val"],
+    "male": ["io", "iel", "el"],
+    "female": ["ia", "ela", "ara"]
+  },
+  "Semiorco": {
+    "roots": ["den", "hen", "kru", "skul"],
+    "male": ["ch", "k", "crush"],
+    "female": ["a", "ia", "crush"]
+  },
+  "Halfling": {
+    "roots": ["com", "hog", "cas", "lar", "fam"],
+    "male": ["o", "io", "y"],
+    "female": ["a", "ia", "y"]
+  },
+  "Hanamori": {
+    "roots": ["ren", "han", "blos", "lea"],
+    "male": ["u", "a", "som"],
+    "female": ["a", "ia", "som"]
+  },
+  "Haniwa": {
+    "roots": ["cla", "ter", "pot", "hol"],
+    "male": ["y", "ra", "low"],
+    "female": ["a", "ia", "low"]
+  },
+  "Harengon": {
+    "roots": ["flop", "hop", "bou", "pou", "ski", "thum"],
+    "male": ["p", "er", "der"],
+    "female": ["a", "ia", "der"]
+  },
+  "Hedge": {
+    "roots": ["pip", "clo", "bra", "stic"],
+    "male": ["pin", "ver", "ch"],
+    "female": ["a", "ia", "ch"]
+  },
+  "Hexblood": {
+    "roots": ["mor", "bog", "hag", "bra"],
+    "male": ["gana", "atha", "ble"],
+    "female": ["a", "ia", "atha"]
+  },
+  "Hobgoblin": {
+    "roots": ["al", "kra", "vor", "zet"],
+    "male": ["guub", "uth", "k", "h"],
+    "female": ["a", "ia", "h"]
+  },
+  "Humano": {
+    "roots": ["fort", "val", "hon", "jus", "virt", "cor"],
+    "male": ["o", "io", "el", "ar"],
+    "female": ["a", "ia", "ela", "ara"]
+  },
+  "Isetsu": {
+    "roots": ["fros", "ice", "gla", "ber"],
+    "male": ["t", "acier", "g"],
+    "female": ["a", "ia", "cier"]
+  },
+  "Jerbeen": {
+    "roots": ["pip", "sque", "swif", "qui"],
+    "male": ["k", "ak", "oot"],
+    "female": ["a", "ia", "oot"]
+  },
+  "Kalashtar": {
+    "roots": ["lan", "osh", "pha", "kha"],
+    "male": ["harath", "ana", "nareth", "dith"],
+    "female": ["a", "ia", "nareth"]
+  },
+  "Kender": {
+    "roots": ["tas", "bur", "loc", "ligh"],
+    "male": ["lehoff", "rfoot", "kpic", "inger"],
+    "female": ["a", "ia", "kpic"]
+  },
+  "Kenku": {
+    "roots": ["snap", "cla", "rus", "cro"],
+    "male": ["twig", "ng", "tle", "w"],
+    "female": ["a", "ia", "w"]
+  },
+  "Kilnkin": {
+    "roots": ["bri", "mor", "kil", "sto"],
+    "male": ["ck", "tar", "n", "ne"],
+    "female": ["a", "ia", "ne"]
+  },
+  "Kitsune": {
+    "roots": ["fox", "fir", "tri", "sly"],
+    "male": ["o", "e", "ck"],
+    "female": ["a", "ia", "ck"]
+  },
+  "Kobold": {
+    "roots": ["mee", "ip", "sna", "kry", "tuk"],
+    "male": ["po", "r", "x", "k"],
+    "female": ["a", "ia", "k"]
+  },
+  "Lemurian": {
+    "roots": ["lem", "dee", "at", "sun"],
+    "male": ["ur", "p", "lan", "ken"],
+    "female": ["a", "ia", "ken"]
+  },
+  "Leonin": {
+    "roots": ["are", "dro", "ket", "pyx"],
+    "male": ["g", "n", "ros", "iron"],
+    "female": ["a", "ia", "eyes"]
+  },
+  "Hombre Lagarto": {
+    "roots": ["ach", "gar", "ket", "utu"],
+    "male": ["chel", "r", "h", "sk"],
+    "female": ["a", "ia", "sk"]
+  },
+  "Lotol": {
+    "roots": ["swa", "mud", "bog", "sli"],
+    "male": ["mp", "ar", "me"],
+    "female": ["a", "ia", "me"]
+  },
+  "Loxodon": {
+    "roots": ["aga", "bes", "koj", "rad"],
+    "male": ["van", "h", "an", "ovek"],
+    "female": ["a", "ia", "ovek"]
+  },
+  "Luma": {
+    "roots": ["cal", "fea", "son", "sky"],
+    "male": ["l", "ther", "g"],
+    "female": ["a", "ia", "g"]
+  },
+  "Mapach": {
+    "roots": ["tin", "scra", "bol", "rus"],
+    "male": ["ker", "ap", "t"],
+    "female": ["a", "ia", "t"]
+  },
+  "Minotauro": {
+    "roots": ["ast", "goz", "kar", "rho", "tor"],
+    "male": ["er", "ar", "in", "on"],
+    "female": ["a", "ia", "in"]
+  },
+  "Mycelian": {
+    "roots": ["spo", "shro", "fun", "mos"],
+    "male": ["re", "om", "gus", "s"],
+    "female": ["a", "ia", "gus"]
+  },
+  "Neurophaged": {
+    "roots": ["min", "sta", "whi", "ech"],
+    "male": ["d", "tic", "sper", "o"],
+    "female": ["a", "ia", "o"]
+  },
+  "Oculus": {
+    "roots": ["len", "opt", "pri", "vis"],
+    "male": ["s", "ic", "sm", "ion"],
+    "female": ["a", "ia", "ion"]
+  },
+  "Ombrask": {
+    "roots": ["dus", "sha", "sha", "van"],
+    "male": ["k", "de", "dow", "ish"],
+    "female": ["a", "ia", "ish"]
+  },
+  "Oniborne": {
+    "roots": ["oni", "ogr", "hor", "red"],
+    "male": ["e", "n", "d"],
+    "female": ["a", "ia", "d"]
+  },
+  "Oozekin": {
+    "roots": ["oo", "sli", "bub", "jel"],
+    "male": ["ze", "me", "bles", "ly"],
+    "female": ["a", "ia", "ly"]
+  },
+  "Opteran": {
+    "roots": ["was", "buz", "hiv", "sti"],
+    "male": ["p", "z", "ng", "g"],
+    "female": ["a", "ia", "g"]
+  },
+  "Orco": {
+    "roots": ["pill", "ant", "map", "ñuk", "cal"],
+    "male": ["án", "or", "ar"],
+    "female": ["a", "ara", "ina"]
+  },
+  "Owlin": {
+    "roots": ["fea", "boo", "scho", "quil"],
+    "male": ["ther", "k", "lar", "l"],
+    "female": ["a", "ia", "l"]
+  },
+  "Plasmoid": {
+    "roots": ["gla", "gloo", "vis", "plas"],
+    "male": ["bb", "op", "cous", "m"],
+    "female": ["a", "ia", "m"]
+  },
+  "Quickstep": {
+    "roots": ["swi", "qui", "das", "zip"],
+    "male": ["ft", "ck", "h", "p"],
+    "female": ["a", "ia", "p"]
+  },
+  "Rakin": {
+    "roots": ["tan", "pos", "tra", "scr"],
+    "roots": ["uki", "sh", "kin", "aps"],
+    "male": ["i", "h", "r", "s"],
+    "female": ["a", "ia", "s"]
+  },
+  "Raptor": {
+    "roots": ["haw", "tal", "swi", "win"],
+    "male": ["k", "on", "ft", "d"],
+    "female": ["a", "ia", "d"]
+  },
+  "Ratatosk": {
+    "roots": ["chi", "nut", "scur", "bar"],
+    "male": ["tter", "k", "ry", "k"],
+    "female": ["a", "ia", "k"]
+  },
+  "Ratter": {
+    "roots": ["rat", "whis", "sew", "doc"],
+    "male": ["kers", "per", "er", "k"],
+    "female": ["a", "ia", "k"]
+  },
+  "Ravenfolk": {
+    "roots": ["rav", "dar", "sha", "caw"],
+    "male": ["en", "k", "dow", "w"],
+    "female": ["a", "ia", "w"]
+  },
+  "Ruun": {
+    "roots": ["run", "car", "sto", "mar"],
+    "male": ["e", "ve", "ne", "k"],
+    "female": ["a", "ia", "k"]
+  },
+  "Ryokido": {
+    "roots": ["ryu", "hon", "shie", "bla"],
+    "male": ["u", "or", "ld", "de"],
+    "female": ["a", "ia", "de"]
+  },
+  "Satarre": {
+    "roots": ["net", "voi", "set", "dar"],
+    "male": ["h", "d", "h", "k"],
+    "female": ["a", "ia", "k"]
+  },
+  "Sátiro": {
+    "roots": ["dap", "lyr", "nyx", "pan", "sil"],
+    "male": ["hne", "a", "os", "der", "enus"],
+    "female": ["a", "ia", "enus"]
+  },
+  "Sauriano": {
+    "roots": ["rex", "sau", "din", "fan", "jaw"],
+    "male": ["x", "r", "o", "g", "r"],
+    "female": ["a", "ia", "g"]
+  },
+  "Sombra": {
+    "roots": ["dus", "sha", "ech", "gho"],
+    "male": ["k", "de", "o", "st"],
+    "female": ["a", "ia", "st"]
+  },
+  "Cambiante": {
+    "roots": ["cla", "fan", "hun", "moo", "sca", "swi", "tra"],
+    "male": ["w", "g", "t", "n", "r", "ft", "ker"],
+    "female": ["a", "ia", "ker"]
+  },
+  "Híbrido Simic": {
+    "roots": ["str", "kra", "vor"],
+    "male": ["ain", "sis", "el"],
+    "female": ["a", "ia", "el"]
+  },
+  "Strig": {
+    "roots": ["ow", "nig", "cla", "stri"],
+    "male": ["l", "ht", "g"],
+    "female": ["a", "ia", "g"]
+  },
+  "Tabaxi": {
+    "roots": ["clou", "bir", "thun"],
+    "male": ["d", "d", "der"],
+    "female": ["a", "ia", "der"]
+  },
+  "Tatsumi": {
+    "roots": ["dra", "sea", "wav", "cur"],
+    "male": ["gon", "e", "e", "rent"],
+    "female": ["a", "ia", "rent"]
+  },
+  "Tengu": {
+    "roots": ["ten", "sto", "win", "bla"],
+    "male": ["gu", "rm", "d", "de"],
+    "female": ["a", "ia", "de"]
+  },
+  "Desencarnado": {
+    "roots": ["lor", "lad", "cha", "los"],
+    "male": ["d", "y", "rles", "t"],
+    "female": ["a", "ia", "t"]
+  },
+  "Thri-kreen": {
+    "roots": ["tcha", "kkr", "xxi", "tzt"],
+    "male": ["zz", "ak", "k", "t"],
+    "female": ["a", "ia", "t"]
   },
   "Tiefling": {
-    "roots": [
-      "azh",
-      "nad",
-      "sam",
-      "qam",
-      "ifr"
-    ],
-    "male": [
-      "ar",
-      "iel",
-      "on"
-    ],
-    "female": [
-      "ira",
-      "ara",
-      "iela"
-    ]
+    "roots": ["azh", "nad", "sam", "qam", "ifr"],
+    "male": ["ar", "iel", "on"],
+    "female": ["ira", "ara", "iela"]
   },
-  "DracÃ³nido": {
-    "roots": [
-      "coatl",
-      "xiuh",
-      "teo",
-      "izt",
-      "ark"
-    ],
-    "male": [
-      "ar",
-      "o",
-      "an"
-    ],
-    "female": [
-      "a",
-      "ara",
-      "ia"
-    ]
+  "Tortle": {
+    "roots": ["bog", "dam", "gar", "gul", "kin", "quo", "sno", "tuo"],
+    "male": ["o", "u", "n", "t"],
+    "female": ["a", "ia", "t"]
+  },
+  "Tritón": {
+    "roots": ["kra", "mol", "nal", "ary", "bel", "ota"],
+    "male": ["yem", "os", "os"],
+    "female": ["n", "thiss", "via"]
+  },
+  "Humano Umbrío": {
+    "roots": ["joh", "mar", "sha", "voi"],
+    "male": ["n", "y", "de", "d"],
+    "female": ["a", "ia", "d"]
+  },
+  "Vedalken": {
+    "roots": ["agn", "bar", "fir", "noa", "don", "im", "jan", "rin"],
+    "male": ["ar", "il", "en", "am"],
+    "female": ["a", "ia", "na"]
+  },
+  "Verdan": {
+    "roots": ["gax", "klo", "ver", "shi"],
+    "male": ["t", "n", "da", "ft"],
+    "female": ["a", "ia", "ft"]
+  },
+  "Vulpin": {
+    "roots": ["ren", "sly", "fox", "gen"],
+    "male": ["ard", "y", "try"],
+    "female": ["a", "ia", "try"]
+  },
+  "Guerrero Forjado": {
+    "roots": ["bas", "bul", "rus", "shi", "fai", "jus", "smit"],
+    "male": ["tion", "wark", "ty", "der", "th", "ce", "h"],
+    "female": ["a", "ia", "h"]
+  },
+  "Wechselkind": {
+    "roots": ["han", "gre", "dol", "pop", "toy"],
+    "male": ["s", "ta", "l", "pet", "y"],
+    "female": ["a", "ia", "y"]
+  },
+  "Yuan-ti": {
+    "roots": ["sse", "sza", "sha", "xan", "zst"],
+    "male": ["ratus", "sass", "ss", "zis", "tis"],
+    "female": ["a", "ia", "tis"]
   }
 }

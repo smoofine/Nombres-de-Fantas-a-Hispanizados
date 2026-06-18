@@ -1,0 +1,163 @@
+{
+  "categorias": {
+    "piedra": {
+      "enano": ["dur", "gran", "roc", "ped", "petr", "lit", "pied", "canto"],
+      "general": ["pied", "roc", "lit", "petr", "cant", "grav", "peñ"]
+    },
+    "metal": {
+      "enano": ["ferr", "bron", "acer", "hier", "or", "arg", "cop", "est"],
+      "general": ["metal", "fier", "acer", "bron", "or", "arg"]
+    },
+    "runas": {
+      "enano": ["run", "sig", "glif", "rún", "arc", "mist"],
+      "general": ["run", "sig", "glif", "arc", "mist"]
+    },
+    "fuego": {
+      "enano": ["ign", "flam", "bras", "fog", "ard", "cal"],
+      "tiefling": ["ign", "flam", "ard", "cal", "inf", "abys"],
+      "draconido": ["ign", "flam", "ard", "sol", "fue"],
+      "general": ["fue", "ard", "flam", "ign", "bras", "cal"]
+    },
+    "naturaleza": {
+      "elfo": ["sil", "aur", "lun", "est", "val", "flor", "bos", "arb"],
+      "general": ["nat", "bos", "arb", "flor", "sil", "aur"]
+    },
+    "sabiduría": {
+      "elfo": ["lyr", "mir", "ael", "sag", "sab", "con"],
+      "general": ["sab", "sag", "con", "lyr", "mir"]
+    },
+    "luz": {
+      "elfo": ["lum", "sol", "rad", "clar", "brill"],
+      "aasimar": ["lum", "sol", "rad", "clar", "luc", "sant"],
+      "general": ["luz", "sol", "lum", "rad", "clar"]
+    },
+    "viento": {
+      "elfo": ["aér", "vent", "zéf", "bris", "air"],
+      "general": ["vien", "air", "vent", "bris", "aér"]
+    },
+    "infernal": {
+      "tiefling": ["azh", "nad", "ifr", "mal", "abys", "som", "tin"],
+      "general": ["inf", "som", "tin", "mal", "abys"]
+    },
+    "astral": {
+      "tiefling": ["sar", "zel", "sha", "cos", "estel", "astr"],
+      "general": ["astr", "cos", "estel", "sar", "zel"]
+    },
+    "dragón": {
+      "draconido": ["coatl", "xiuh", "izt", "ark", "drac", "escam"],
+      "general": ["drag", "escam", "alc", "coatl"]
+    },
+    "honor": {
+      "draconido": ["kriv", "thal", "vor", "hon", "glor", "val"],
+      "general": ["hon", "glor", "val", "thal"]
+    },
+    "tierra": {
+      "orco": ["pill", "ant", "map", "ñuk", "tier", "terr"],
+      "general": ["tier", "terr", "suel", "polv"]
+    },
+    "guerra": {
+      "orco": ["gue", "bel", "mil", "com", "bat", "luch"],
+      "enano": ["bat", "luch", "guer", "com"],
+      "general": ["guer", "bat", "luch", "mil", "bel"]
+    },
+    "virtud": {
+      "humano": ["fort", "val", "hon", "jus", "virt", "cor"],
+      "aasimar": ["sant", "virt", "cor", "fe", "car"],
+      "general": ["virt", "hon", "val", "fort", "cor"]
+    },
+    "fe": {
+      "humano": ["fe", "sant", "div", "cru", "ora"],
+      "aasimar": ["fe", "sant", "div", "cru", "cel"],
+      "general": ["fe", "sant", "div", "cru"]
+    },
+    "montaña": {
+      "enano": ["mont", "cumb", "pic", "nev", "alt"],
+      "goliath": ["mont", "cumb", "pic", "alt", "nev"],
+      "general": ["mont", "cumb", "pic", "alt"]
+    },
+    "artesanía": {
+      "gnomo": ["art", "tall", "forj", "cre", "fab", "obr"],
+      "general": ["art", "tall", "forj", "cre"]
+    },
+    "joyería": {
+      "gnomo": ["joy", "gem", "per", "orf", "brill"],
+      "general": ["joy", "gem", "per", "brill"]
+    },
+    "mecánica": {
+      "gnomo": ["mec", "eng", "maq", "aut", "rod"],
+      "general": ["mec", "eng", "maq"]
+    },
+    "comida": {
+      "halfling": ["com", "coc", "sab", "gu", "pan"],
+      "general": ["com", "coc", "sab", "gu"]
+    },
+    "hogar": {
+      "halfling": ["hog", "cas", "lar", "fam", "cal"],
+      "general": ["hog", "cas", "lar", "fam"]
+    },
+    "comunidad": {
+      "halfling": ["com", "pueb", "alc", "vec", "her"],
+      "general": ["com", "pueb", "alc", "vec"]
+    },
+    "fuerza": {
+      "goliath": ["fuer", "pod", "vig", "rob", "fir"],
+      "general": ["fuer", "pod", "vig", "rob"]
+    },
+    "supervivencia": {
+      "goliath": ["sup", "viv", "sob", "per", "dur"],
+      "general": ["sup", "viv", "sob"]
+    },
+    "cielo": {
+      "aasimar": ["cie", "cel", "astr", "emp", "alt"],
+      "general": ["cie", "cel", "astr", "emp"]
+    },
+    "santidad": {
+      "aasimar": ["sant", "sagr", "div", "pur", "sant"],
+      "general": ["sant", "sagr", "div", "pur"]
+    },
+    "aire": {
+      "aarakocra": ["aer", "aer", "ciel", "lib", "alt"],
+      "general": ["aer", "ciel", "lib", "alt"]
+    },
+    "agua": {
+      "triton": ["agu", "mar", "océ", "prof", "cor"],
+      "general": ["agu", "mar", "océ", "prof"]
+    },
+    "sombra": {
+      "sombra": ["som", "umb", "osc", "tin", "noch"],
+      "general": ["som", "umb", "osc", "tin"]
+    },
+    "mar": {
+      "tortle": ["mar", "océ", "play", "ola", "cor"],
+      "general": ["mar", "océ", "play", "ola"]
+    },
+    "insecto": {
+      "thri_kreen": ["ins", "col", "enj", "pat", "al"],
+      "general": ["ins", "col", "enj", "pat"]
+    },
+    "mecánico": {
+      "guerrero_forjado": ["mec", "aut", "rob", "con", "fab"],
+      "general": ["mec", "aut", "rob", "con"]
+    },
+    "oriental": {
+      "kitsune": ["hon", "art", "esp", "nat", "rit"],
+      "general": ["hon", "art", "esp", "nat"]
+    },
+    "urbano": {
+      "kenku": ["urb", "cal", "mer", "sec", "calle"],
+      "general": ["urb", "cal", "mer", "sec"]
+    },
+    "mágico": {
+      "kalashtar": ["mag", "arc", "mist", "con", "sab"],
+      "general": ["mag", "arc", "mist", "con"]
+    },
+    "salvaje": {
+      "tabaxi": ["sal", "nat", "lib", "ins", "caz"],
+      "general": ["sal", "nat", "lib", "ins"]
+    },
+    "aviano": {
+      "feathren": ["ave", "ciel", "plum", "vuel", "alt"],
+      "general": ["ave", "ciel", "plum", "vuel"]
+    }
+  }
+}

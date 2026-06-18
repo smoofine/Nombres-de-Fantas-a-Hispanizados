@@ -1,0 +1,542 @@
+{
+  "reglas_generales": {
+    "masculino": {
+      "terminaciones": ["o", "io", "án", "ario", "el", "or", "er", "ar", "ón", "io"],
+      "transformaciones": {
+        "duplicar_consonante": ["nn", "ll", "rr"],
+        "añadir_vocal": ["io", "eo", "ao"]
+      }
+    },
+    "femenino": {
+      "terminaciones": ["a", "ia", "ina", "aria", "ela", "ora", "era", "ara", "óna", "ia"],
+      "transformaciones": {
+        "duplicar_consonante": ["nn", "ll"],
+        "añadir_vocal": ["ia", "ea", "aa"]
+      }
+    }
+  },
+  "reglas_por_raiz": {
+    "dur": {
+      "masculino": ["Duro", "Durio", "Durán", "Durario", "Durel", "Duran"],
+      "femenino": ["Dura", "Duria", "Durina", "Duraria", "Durela", "Durana"]
+    },
+    "ferr": {
+      "masculino": ["Ferro", "Ferrio", "Ferrán", "Ferrario", "Ferrel", "Ferran"],
+      "femenino": ["Ferra", "Ferria", "Ferrina", "Ferraria", "Ferrela", "Ferrana"]
+    },
+    "gran": {
+      "masculino": ["Grano", "Granio", "Granán", "Granario", "Grael", "Gran"],
+      "femenino": ["Grana", "Grania", "Granina", "Grania", "Graela", "Grana"]
+    },
+    "roc": {
+      "masculino": ["Roco", "Rocio", "Rocán", "Rocario", "Rocel", "Rocán"],
+      "femenino": ["Roca", "Rocia", "Rocina", "Rocaria", "Rocela", "Rocana"]
+    },
+    "bron": {
+      "masculino": ["Bronco", "Bronio", "Bronán", "Bronario", "Bronel", "Bron"],
+      "femenino": ["Bronca", "Bronia", "Bronina", "Bronaria", "Bronela", "Brona"]
+    },
+    "sil": {
+      "masculino": ["Silo", "Silio", "Silán", "Silario", "Silel", "Silvan"],
+      "femenino": ["Sila", "Silia", "Silina", "Silaria", "Silela", "Silvana"]
+    },
+    "lun": {
+      "masculino": ["Luno", "Lunio", "Lunán", "Lunario", "Lunel", "Lun"],
+      "femenino": ["Luna", "Lunia", "Lunina", "Lunaria", "Lunela", "Luna"]
+    },
+    "aur": {
+      "masculino": ["Auro", "Aurio", "Aurán", "Aurario", "Aurel", "Aur"],
+      "femenino": ["Aura", "Auria", "Aurina", "Auraria", "Aurela", "Aura"]
+    },
+    "est": {
+      "masculino": ["Esto", "Estio", "Están", "Estario", "Estel", "Est"],
+      "femenino": ["Esta", "Estia", "Estina", "Estaria", "Estela", "Estana"]
+    },
+    "val": {
+      "masculino": ["Valo", "Valio", "Valán", "Valario", "Valel", "Val"],
+      "femenino": ["Vala", "Valia", "Valina", "Valaria", "Valela", "Vala"]
+    },
+    "azh": {
+      "masculino": ["Azhar", "Azhio", "Azhán", "Azhario", "Azhel", "Azhan"],
+      "femenino": ["Azhara", "Azhia", "Azhina", "Azharia", "Azhela", "Azhana"]
+    },
+    "nad": {
+      "masculino": ["Nadir", "Nadio", "Nadán", "Nadario", "Nadel", "Nadan"],
+      "femenino": ["Nadira", "Nadia", "Nadina", "Nadaria", "Nadela", "Nadana"]
+    },
+    "sam": {
+      "masculino": ["Samir", "Samio", "Samán", "Samario", "Samel", "Saman"],
+      "femenino": ["Samira", "Samia", "Samina", "Samaria", "Samela", "Samana"]
+    },
+    "qam": {
+      "masculino": ["Qamar", "Qamio", "Qamán", "Qamario", "Qamel", "Qaman"],
+      "femenino": ["Qamara", "Qamia", "Qamina", "Qamaria", "Qamela", "Qamana"]
+    },
+    "ifr": {
+      "masculino": ["Ifrit", "Ifrio", "Ifrán", "Ifrario", "Ifrel", "Ifran"],
+      "femenino": ["Ifrita", "Ifria", "Ifrina", "Ifraria", "Ifrela", "Ifrana"]
+    },
+    "coatl": {
+      "masculino": ["Coatl", "Coatlo", "Coatlán", "Coatlario", "Coatlel", "Coatl"],
+      "femenino": ["Coatla", "Coatlia", "Coatlina", "Coatlaria", "Coatlela", "Coatlana"]
+    },
+    "xiuh": {
+      "masculino": ["Xiuh", "Xiuhco", "Xiuhán", "Xiuhario", "Xiuheel", "Xiuh"],
+      "femenino": ["Xiuha", "Xiuhia", "Xiuina", "Xiuharia", "Xiuhela", "Xiuha"]
+    },
+    "teo": {
+      "masculino": ["Teo", "Teodio", "Teodán", "Teodario", "Teodel", "Teodán"],
+      "femenino": ["Tea", "Teodia", "Teodina", "Teodaria", "Teodela", "Teodana"]
+    },
+    "izt": {
+      "masculino": ["Iztac", "Iztacio", "Iztacán", "Iztacario", "Iztacel", "Iztac"],
+      "femenino": ["Iztaca", "Iztacia", "Iztacina", "Iztacaria", "Iztacela", "Iztacana"]
+    },
+    "ark": {
+      "masculino": ["Arko", "Arkio", "Arkán", "Arkario", "Arkél", "Arkan"],
+      "femenino": ["Arka", "Arkia", "Arkina", "Arkaria", "Arkéla", "Arkana"]
+    },
+    "pill": {
+      "masculino": ["Pillán", "Pillio", "Pillán", "Pillario", "Pillel", "Pillán"],
+      "femenino": ["Pilla", "Pillia", "Pillina", "Pillaria", "Pillela", "Pillana"]
+    },
+    "ant": {
+      "masculino": ["Antur", "Anturio", "Anturán", "Anturario", "Anturel", "Anturán"],
+      "femenino": ["Antura", "Anturia", "Anturina", "Anturaria", "Anturela", "Anturana"]
+    },
+    "map": {
+      "masculino": ["Mapu", "Mapuche", "Mapucán", "Mapucario", "Mapucel", "Mapu"],
+      "femenino": ["Mapa", "Mapia", "Mapina", "Maparia", "Mapela", "Mapana"]
+    },
+    "ñuk": {
+      "masculino": ["Ñuke", "Ñukio", "Ñukán", "Ñukario", "Ñukel", "Ñuke"],
+      "femenino": ["Ñuka", "Ñukia", "Ñukina", "Ñukaria", "Ñukela", "Ñukana"]
+    }
+  },
+  "reglas_culturales": {
+    "enana": {
+      "preferencia_duplicacion": true,
+      "terminaciones_favoritas": ["án", "io", "ario"]
+    },
+    "elfa": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["io", "iel", "aria"]
+    },
+    "tiefling": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ar", "iel", "on"]
+    },
+    "draconida": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ar", "o", "an"]
+    },
+    "orco": {
+      "preferencia_duplicacion": true,
+      "terminaciones_favoritas": ["án", "or", "ar"]
+    },
+    "aarakocra": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["k", "c", "q"]
+    },
+    "aasimar": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["el", "on", "ius"]
+    },
+    "elfo_astral": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ea", "il", "ar"]
+    },
+    "autognomo": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["o", "io", "box"]
+    },
+    "barding": {
+      "preferencia_duplicacion": true,
+      "terminaciones_favoritas": ["d", "n", "r"]
+    },
+    "hombre_bree": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["by", "es", "er"]
+    },
+    "ranger_norte": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["n", "d", "r"]
+    },
+    "hombre_oso": {
+      "preferencia_duplicacion": true,
+      "terminaciones_favoritas": ["n", "r", "g"]
+    },
+    "bestial": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["o", "er", "k"]
+    },
+    "hobbit_bree": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["in", "bo", "foot"]
+    },
+    "bugbeer": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["k", "r", "n"]
+    },
+    "centauro": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["va", "os", "ro"]
+    },
+    "cervano": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["n", "ven", "or"]
+    },
+    "cambiaformas": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["o", "x", "s"]
+    },
+    "cnidaran": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["lis", "sha", "s"]
+    },
+    "corvum": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["el", "us", "k"]
+    },
+    "ciclope": {
+      "preferencia_duplicacion": true,
+      "terminaciones_favoritas": ["or", "es", "on"]
+    },
+    "darakhul": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["l", "r", "th"]
+    },
+    "dhampir": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["rd", "illa", "ius"]
+    },
+    "eladrin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["whis", "wrath", "heart"]
+    },
+    "enkoh": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ji", "ro", "i"]
+    },
+    "erina": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["in", "ba", "k"]
+    },
+    "etereano": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["as", "ra", "us"]
+    },
+    "hada": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ble", "drop", "le"]
+    },
+    "feathren": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["is", "a", "ila"]
+    },
+    "firbolg": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["der", "friend", "heart"]
+    },
+    "fuyoren": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ura", "u", "i"]
+    },
+    "gallus": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["b", "y", "ley"]
+    },
+    "geleton": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["bo", "op", "us"]
+    },
+    "genasi": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ze", "st", "yx"]
+    },
+    "giff": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["naby", "stace", "cival"]
+    },
+    "gith": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["k", "ak", "ik"]
+    },
+    "gnoll": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["row", "ak", "r"]
+    },
+    "gnomo": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ton", "kin", "dar"]
+    },
+    "gobboc": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["bit", "k", "b"]
+    },
+    "goblin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["a", "h", "za"]
+    },
+    "golynn": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["o", "os", "um"]
+    },
+    "grimalkin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["r", "tch", "aws"]
+    },
+    "hadozee": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["r", "o", "ley"]
+    },
+    "semiseco": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["don", "va", "an"]
+    },
+    "semienano": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["n", "ry", "fist"]
+    },
+    "hanamori": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["u", "a", "som"]
+    },
+    "haniwa": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["y", "ra", "low"]
+    },
+    "harengon": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["p", "er", "der"]
+    },
+    "hedge": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["pin", "ver", "ch"]
+    },
+    "hexblood": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["gana", "atha", "ble"]
+    },
+    "hobgoblin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["guub", "uth", "k"]
+    },
+    "isetsu": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["t", "acier", "g"]
+    },
+    "jerbeen": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["k", "ak", "oot"]
+    },
+    "kalashtar": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["harath", "ana", "nareth"]
+    },
+    "kender": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["lehoff", "rfoot", "kpic"]
+    },
+    "kenku": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["twig", "ng", "tle"]
+    },
+    "kilnkin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ck", "tar", "n"]
+    },
+    "kitsune": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["o", "e", "ck"]
+    },
+    "kobold": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["po", "r", "x"]
+    },
+    "lemurian": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ur", "p", "lan"]
+    },
+    "leonin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["g", "n", "ros"]
+    },
+    "hombre_lagarto": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["chel", "r", "h"]
+    },
+    "lotol": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["mp", "ar", "me"]
+    },
+    "loxodon": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["van", "h", "an"]
+    },
+    "luma": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["l", "ther", "g"]
+    },
+    "mapach": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ker", "ap", "t"]
+    },
+    "minotauro": {
+      "preferencia_duplicacion": true,
+      "terminaciones_favoritas": ["er", "ar", "in"]
+    },
+    "mycelian": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["re", "om", "gus"]
+    },
+    "neurophaged": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["d", "tic", "sper"]
+    },
+    "oculus": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["s", "ic", "sm"]
+    },
+    "ombrask": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["k", "de", "dow"]
+    },
+    "oniborne": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["e", "n", "d"]
+    },
+    "oozekin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ze", "me", "bles"]
+    },
+    "opteran": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["p", "z", "ng"]
+    },
+    "owlin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ther", "k", "lar"]
+    },
+    "plasmoid": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["bb", "op", "cous"]
+    },
+    "quickstep": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ft", "ck", "h"]
+    },
+    "rakin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["i", "h", "r"]
+    },
+    "raptor": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["k", "on", "ft"]
+    },
+    "ratatosk": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["tter", "k", "ry"]
+    },
+    "ratter": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["kers", "per", "k"]
+    },
+    "ravenfolk": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["en", "k", "dow"]
+    },
+    "ruun": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["e", "ve", "ne"]
+    },
+    "ryokido": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["u", "or", "ld"]
+    },
+    "satarre": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["h", "d", "k"]
+    },
+    "satiro": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["hne", "a", "os"]
+    },
+    "sauriano": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["x", "r", "o"]
+    },
+    "sombra": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["k", "de", "o"]
+    },
+    "cambiante": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["w", "g", "t"]
+    },
+    "hibrido_simic": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ain", "sis", "el"]
+    },
+    "strig": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["l", "ht", "g"]
+    },
+    "tabaxi": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["d", "d", "der"]
+    },
+    "tatsumi": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["gon", "e", "e"]
+    },
+    "tengu": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["gu", "rm", "d"]
+    },
+    "desencarnado": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["d", "y", "rles"]
+    },
+    "thri_kreen": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["zz", "ak", "k"]
+    },
+    "tortle": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["o", "u", "n"]
+    },
+    "triton": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["yem", "os", "os"]
+    },
+    "humano_umbrio": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["n", "y", "de"]
+    },
+    "vedalken": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ar", "il", "en"]
+    },
+    "verdan": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["t", "n", "da"]
+    },
+    "vulpin": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ard", "y", "try"]
+    },
+    "guerrero_forjado": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["tion", "wark", "ty"]
+    },
+    "wechselkind": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["s", "ta", "l"]
+    },
+    "yuan_ti": {
+      "preferencia_duplicacion": false,
+      "terminaciones_favoritas": ["ratus", "sass", "ss"]
+    }
+  }
+}
